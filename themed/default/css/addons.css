@@ -1,0 +1,223 @@
+/* 
+ * Common addon styles
+ */
+
+.tpl-addon .tpl-fp-hp {
+    display: none;
+}
+
+.tpl-addon .tpl-form-row {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.tpl-addon .tpl-form-label {
+    float: left;
+    padding: 6px 5px 0 0;
+    width: 140px;
+}
+
+.tpl-addon .tpl-form-text {
+    padding-top: 3px;
+}
+
+.tpl-addon .tpl-invalid .tpl-form-label,
+.tpl-addon .tpl-invalid label {
+    color: #ff2b2b;
+}
+
+.tpl-addon .tpl-invalid .tpl-form-input input[type=text],
+.tpl-addon .tpl-invalid .tpl-form-input input[type=password],
+.tpl-addon .tpl-invalid .tpl-form-input input[type=file],
+.tpl-addon .tpl-invalid .tpl-form-textarea textarea,
+.tpl-addon .tpl-invalid .tpl-form-select select {
+    border: 1px solid #ff2b2b;
+}
+
+.tpl-addon .tpl-form-separator {
+    height: 8px;
+    font-size: 8px;
+}
+
+.tpl-addon .tpl-form-separator.tpl-small {
+    height: 4px;
+    font-size: 4px;
+}
+
+.tpl-addon .tpl-form-separator.tpl-medium {
+    height: 6px;
+    font-size: 6px;
+}
+
+/* facebook like box sidebar addon (FacebookPagePluginSidebarAddon) */
+
+.tpl-facebook-page-plugin-sidebar-addon {
+    position: fixed;
+    top: 50%;
+    z-index: 50;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon.tpl-left {
+    left: -9999px;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon.tpl-right {
+    right: -9999px;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon .tpl-addon-content {
+    position: relative;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon .tpl-sidebar-box {
+    background: #f7f7f7;
+    border: 2px solid #395994;
+    position: relative;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon.tpl-left .tpl-sidebar-box {
+    border-left: none;
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon.tpl-right .tpl-sidebar-box {
+    border-right: none;
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon .tpl-sidebar-button {
+    position: absolute;
+    top: 0;
+    width: 33px;
+    height: 115px;
+    background: url(/themed/default/css/addons_img/facebook_caption.png) no-repeat -2px center #395994;
+    cursor: pointer;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon .tpl-no-cfg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -20px;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon.tpl-left .tpl-sidebar-button {
+    right: -32px;
+    -moz-border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0 6px 6px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon.tpl-right .tpl-sidebar-button {
+    left: -32px;
+    -moz-border-radius: 6px 0 0 6px;
+    -webkit-border-radius: 6px 0 0 6px;
+    border-radius: 6px 0 0 6px;
+}
+
+.tpl-facebook-page-plugin-sidebar-addon .tpl-addon-content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    opacity: 0.01;
+    filter: alpha(opacity=1);
+    -moz-opacity: 0.01;
+    -khtml-opacity: 0.01;
+}
+
+/* newsletter popup addon (NewsletterPopupAddon) */
+
+.tpl-newsletter-popup-addon .tpl-newsletter-text-section {
+    padding-bottom: 5px;
+}
+
+.tpl-newsletter-popup-addon .tpl-message {
+    margin: 5px 0;
+}
+
+.tpl-newsletter-popup-addon .tpl-newsletter-form-section {
+    padding-top: 5px;
+}
+
+.tpl-newsletter-popup-addon input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border-color: #cccccc;
+}
+
+.tpl-newsletter-popup-addon .tpl-submit-row {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.tpl-newsletter-popup-addon .tpl-captcha-description {
+    padding: 5px 0 6px 2px;
+    font-size: 11px;
+    color: #777777;
+}
+
+.tpl-newsletter-popup-addon .tpl-captcha-image {
+    padding-left: 2px;
+}
+
+.tpl-newsletter-popup-addon .tpl-captcha-image img {
+    float: left;
+}
+
+.tpl-newsletter-popup-addon .tpl-refresh-captcha {
+    float: left;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 16px 0 0 10px;
+    background: url(/themed/default/css/main_img/small_icons.png) no-repeat scroll 0 -49px;
+    cursor: pointer;
+}
+
+.tpl-newsletter-popup-addon .tpl-captcha-input {
+    margin-top: 5px;
+}
+
+.tpl-newsletter-popup-addon .tpl-captcha-input input[type=text] {
+    width: 142px;
+}
+
+/* eraty addon (EratyAddon) */
+
+.tpl-eraty.tpl-eraty-calculator {
+    text-align: center;
+}
+
+.tpl-eraty .tpl-eraty-calculator-link {
+    display: inline-block;
+    width: 125px;
+    height: 25px;
+    margin-top: 10px;
+    background: url(https://www.eraty.pl/images/bannery/oblicz_white.png) no-repeat scroll 0 0;
+    background-size: 100% auto;
+}
+
+.tpl-eraty .tpl-eraty-info-link {
+    display: inline-block;
+    width: 155px;
+    height: 25px;
+    margin-top: 10px;
+    background: url(https://www.eraty.pl/images/bannery/jakkupic_white.png) no-repeat scroll 0 0;
+    background-size: 100% auto;
+}
+
+.tpl-eraty.tpl-eraty-payment-method-box {
+    padding: 5px 10px 0 17px;
+}
+
+.tpl-eraty.tpl-eraty-payment-method-box .tpl-eraty-calculator-link {
+    float: right;
+}
